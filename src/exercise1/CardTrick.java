@@ -82,6 +82,7 @@ public class CardTrick
         System.out.println();
         
         System.out.println("My name is Zain, but you can call me Zainer as a nickname");
+        System.out.println("My name is Zain, but you can call me Zainer as a nickname.");
         System.out.println();
         
         System.out.println("My career ambitions: ");
@@ -99,5 +100,4 @@ public class CardTrick
         
     
     }
-
 }
