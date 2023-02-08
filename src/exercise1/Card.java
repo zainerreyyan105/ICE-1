@@ -8,9 +8,10 @@ package exercise1;
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
  * @author dancye
- * @author Paul Bonenfant May 2020
+ * @author Zain Khan - Wed, Feb 1, 2023
  */
-public class Card {
+public class Card
+{
 
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
@@ -19,28 +20,40 @@ public class Card {
     /**
      * @return the suit
      */
-    public String getSuit() {
+    public String getSuit()
+    {
         return suit;
     }
 
     /**
      * @param suit the suit to set
      */
-    public void setSuit(String suit) {
+    public void setSuit(String suit)
+    {
         this.suit = suit;
     }
 
     /**
      * @return the value
      */
-    public int getValue() {
+    public int getValue()
+    {
         return value;
     }
 
     /**
      * @param value the value to set
      */
-    public void setValue(int value) {
+    public void setValue(int value)
+    {
         this.value = value;
     }  
+
+    void setValue() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    void suit(int nextInt) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
