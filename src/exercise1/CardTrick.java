@@ -56,7 +56,7 @@ public class CardTrick {
         System.out.println("My hobbies:");
         System.out.println("- I like to Watch TV, do some map editing on Waze.");
         System.out.println("- I hope to ride a motorcycle one day.");
-	System.out.println("- I like to help people with directions to places.");
+	System.out.println("- I like to help people with directions to places without using maps.");
 	System.out.println();
     }
 }
