@@ -10,10 +10,8 @@ import java.util.Scanner;
  */
 public class CardTrick
 {
-    
     public static void main(String[] args)
     {
-        
         Card[] hand = new Card[7];
         hand[0]= new Card();
         hand[0].setValue(1);
@@ -77,27 +75,21 @@ public class CardTrick
      */
     private static void printInfo()
     {
-    
-        System.out.println("Congratulations, you guessed correct!");
+        System.out.println("Congratulations, you guessed correctly!");
         System.out.println();
         
-        System.out.println("My name is Zain, but you can call me Zainer as a nickname");
-        System.out.println("My name is Zain, but you can call me Zainer as a nickname.");
+        System.out.println("My name is Zain, but you can call me Zainer.");
         System.out.println();
         
         System.out.println("My career ambitions: ");
-        System.out.println("-- Be more active on any Social Medias you have.");
-        System.out.println("-- I Have a semester with no violations of academic integrity!");
+        System.out.println("- I Have a semester with no violations of academic integrity!");
+	System.out.println("- I'm hoping to study more, and try to get good grades!");
 	System.out.println();	
 
         System.out.println("My hobbies: ");
-        System.out.println("-- I'm Investing");
-        System.out.println("-- I'm not into Cooking");
-        System.out.println("-- I like to Watch TV, do some map editing on Waze.");
-        System.out.println("-- I hope to ride a motorcycle one day.");
-
+        System.out.println("- I like to help people (if they're lost) with directions without using maps");
+        System.out.println("- I like to Watch TV, do some map editing on Waze.");
+        System.out.println("- I hope to ride a motorcycle one day.");
         System.out.println();
-        
-    
     }
 }
